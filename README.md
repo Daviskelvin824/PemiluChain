@@ -3,7 +3,7 @@
 **PemiluChain** is a decentralized voting platform based on **smart contracts** on the **Stacks** network, designed to bring transparency, security, and efficiency to general elections and organizational voting processes.
 
 🌐 **Live Demo:** [pemilu-chain.vercel.app](https://pemilu-chain.vercel.app)
-Contract: ST1VFV01DFD12J91BZ13PM1AQ9B97AJZ67YW7MRPV
+**Contract:**: ST1VFV01DFD12J91BZ13PM1AQ9B97AJZ67YW7MRPV
 
 ---
 
