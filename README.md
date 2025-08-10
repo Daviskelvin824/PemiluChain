@@ -1,6 +1,6 @@
 # 🏛️ PemiluChain
 
-**PemiluChain** adalah platform voting terdesentralisasi berbasis **smart contract** di jaringan **Stacks**, dirancang untuk menghadirkan transparansi, keamanan, dan efisiensi dalam proses pemilihan umum maupun voting organisasi.
+**PemiluChain** is a decentralized voting platform based on **smart contracts** on the **Stacks** network, designed to bring transparency, security, and efficiency to general elections and organizational voting processes.
 
 🌐 **Live Demo:** [pemilu-chain.vercel.app](https://pemilu-chain.vercel.app)
 
@@ -8,47 +8,47 @@
 
 ## 📌 Problem Statement
 
-**Masalah di Indonesia:**
+**Problems in Indonesia:**
 
-- Proses pemilu & voting organisasi sering kurang transparan, rawan manipulasi
-- Tidak memiliki rekam jejak publik yang dapat diverifikasi
-- Biaya dan logistik tinggi untuk pemungutan suara skala besar
+- Election & organizational voting processes are often non-transparent and prone to manipulation
+- Lack of publicly verifiable records
+- High costs and logistics for large-scale voting
 
-**Siapa yang terdampak:**
+**Who is affected:**
 
-- Pemilih umum yang ingin suara mereka dihitung secara adil
-- Organisasi, komunitas, dan DAO yang butuh sistem voting aman & efisien
-- Penyelenggara pemilu yang ingin mengurangi biaya & risiko manipulasi
+- General voters who want their votes counted fairly
+- Organizations, communities, and DAOs that need secure & efficient voting systems
+- Election organizers who want to reduce costs & manipulation risks
 
-**Mengapa ini penting:**
-Integritas voting menentukan kualitas demokrasi. Tanpa transparansi dan keamanan, hasil pemilihan bisa dipertanyakan, memicu instabilitas sosial dan menurunkan partisipasi.
+**Why this matters:**
+Voting integrity determines the quality of democracy. Without transparency and security, election results can be questioned, triggering social instability and reducing participation.
 
 ---
 
 ## ⚠️ Current Solutions & Limitations
 
-**Solusi Saat Ini:**
+**Current Solutions:**
 
-- Sistem konvensional berbasis kertas & hitung manual
-- Aplikasi voting terpusat (centralized)
+- Conventional paper-based systems & manual counting
+- Centralized voting applications
 
-**Kekurangan:**
+**Limitations:**
 
-- Rentan manipulasi data
-- Tidak transparan secara publik
-- Biaya logistik & keamanan tinggi
-- Rawan serangan siber (untuk sistem terpusat)
+- Vulnerable to data manipulation
+- Not publicly transparent
+- High logistical & security costs
+- Prone to cyber attacks (for centralized systems)
 
 ---
 
 ## 💡 Solution Overview
 
-**PemiluChain** memanfaatkan **smart contract Stacks** untuk mencatat setiap suara secara **on-chain**, sehingga:
+**PemiluChain** leverages **Stacks smart contracts** to record every vote **on-chain**, ensuring:
 
-- ✅ **Transparan** – semua data tersedia publik & immutable
-- ✅ **Aman** – suara tidak dapat dihapus atau diubah
-- ✅ **Efisien** – tanpa logistik fisik, perhitungan otomatis
-- ✅ **Akses global** – voting dari mana saja via wallet Stacks
+- ✅ **Transparent** – all data publicly available & immutable
+- ✅ **Secure** – votes cannot be deleted or altered
+- ✅ **Efficient** – no physical logistics, automatic counting
+- ✅ **Global access** – voting from anywhere via Stacks wallet
 
 ---
 
@@ -78,7 +78,7 @@ npm install
 
 ### 3️⃣ Setup Environment Variables
 
-Buat file `.env.local` dan isi dengan:
+Create a `.env.local` file and fill with:
 
 ```env
 NEXT_PUBLIC_STACKS_API_URL=https://stacks-node-api.mainnet.stacks.co
@@ -92,20 +92,20 @@ NEXT_PUBLIC_CONTRACT_NAME=YOUR_CONTRACT_NAME
 npm run dev
 ```
 
-Akses di: [http://localhost:3000](http://localhost:3000)
+Access at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
 ## 📜 Smart Contract
 
-PemiluChain menggunakan smart contract Clarity di jaringan Stacks untuk:
+PemiluChain uses Clarity smart contracts on the Stacks network to:
 
-- Membuat proposal voting
-- Melakukan voting **for** atau **against**
-- Menghitung hasil secara otomatis dan transparan
-- Menyimpan rekam jejak voting yang immutable
+- Create voting proposals
+- Execute **for** or **against** voting
+- Calculate results automatically and transparently
+- Store immutable voting records
 
-Kode smart contract dapat ditemukan di folder `contracts/`.
+Smart contract code can be found in the `contracts/` folder.
 
 ---
 
@@ -128,42 +128,42 @@ Kode smart contract dapat ditemukan di folder `contracts/`.
 
 ## 🌟 Features
 
-- 🗳️ **Voting Terdesentralisasi** - Suara tersimpan di blockchain
-- 🔒 **Wallet Integration** - Autentikasi via Stacks wallet
-- 📊 **Real-time Results** - Hasil voting update otomatis
-- 🔍 **Transparent Audit** - Semua transaksi dapat diverifikasi
-- 📱 **Responsive Design** - Akses dari desktop dan mobile
+- 🗳️ **Decentralized Voting** - Votes stored on blockchain
+- 🔒 **Wallet Integration** - Authentication via Stacks wallet
+- 📊 **Real-time Results** - Voting results update automatically
+- 🔍 **Transparent Audit** - All transactions can be verified
+- 📱 **Responsive Design** - Access from desktop and mobile
 
 ---
 
 ## 🌟 Value Proposition for Stacks Ecosystem
 
-- Menunjukkan potensi Stacks dalam membangun aplikasi governance transparan
-- Memperluas adopsi blockchain untuk sektor publik dan organisasi
-- Memberikan use-case nyata untuk Clarity smart contracts
-- Mendorong inovasi di bidang demokrasi digital
+- Demonstrates Stacks potential in building transparent governance applications
+- Expands blockchain adoption for public sector and organizations
+- Provides real use-case for Clarity smart contracts
+- Drives innovation in digital democracy
 
 ---
 
 ## 🤝 Contributing
 
-Kontribusi sangat diterima! Silakan:
+Contributions are welcome! Please:
 
-1. Fork repository ini
-2. Buat feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buka Pull Request
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 ## 📝 Roadmap
 
-- [ ] Integration dengan KTP elektronik untuk verifikasi identitas
-- [ ] Multi-proposal voting dalam satu sesi
-- [ ] Dashboard analytics untuk penyelenggara
+- [ ] Integration with electronic ID cards for identity verification
+- [ ] Multi-proposal voting in one session
+- [ ] Analytics dashboard for organizers
 - [ ] Mobile app (React Native)
-- [ ] Integration dengan organisasi pemerintah
+- [ ] Integration with government organizations
 
 ---
 
