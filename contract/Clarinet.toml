@@ -1,0 +1,16 @@
+[project]
+name = "pemiluchain-contract"
+authors = ["Davis daviskelvin824@gmail.com"]
+description = "1 person = 1 token = 1 vote governance contract"
+version = "0.1.0"
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.pemiluchain-contract]
+path = "contracts/pemiluchain-contract.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+costs_version = 2
+parser_version = 2
